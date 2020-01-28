@@ -34,12 +34,12 @@
                 <artifactId>gitflow-maven-plugin</artifactId>
                 <version>1.14.0</version>
                 <configuration>
-                    <mvnExecutable>path_to_maven_executable</mvnExecutable>
-                    <gitExecutable>path_to_git_executable</gitExecutable>
-
                     <installProject>false</installProject>
                     <verbose>false</verbose>
-
+                    <keepBranch>true</keepBranch>
+                    <skipTestProject>true</skipTestProject>
+                    <installProject>false</installProject>
+                    <verbose>false</verbose>
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
                         <developmentBranch>develop</developmentBranch>
