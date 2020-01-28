@@ -6,7 +6,7 @@
 
     <groupId>com.examples</groupId>
     <artifactId>git-release</artifactId>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2-SNAPSHOT</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
