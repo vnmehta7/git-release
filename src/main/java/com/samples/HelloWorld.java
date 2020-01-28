@@ -10,7 +10,7 @@ public class HelloWorld {
     }
 
     private static void printHello() {
-        log.atInfo().log("Hello");
+        log.atInfo().log("Hello Viral");
     }
 
     private static void printHelloWorld() {
