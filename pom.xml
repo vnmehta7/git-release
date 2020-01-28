@@ -6,8 +6,27 @@
 
     <groupId>com.examples</groupId>
     <artifactId>git-release</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.flogger</groupId>
+            <artifactId>flogger</artifactId>
+            <version>0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.flogger</groupId>
+            <artifactId>flogger-system-backend</artifactId>
+            <version>0.4</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>

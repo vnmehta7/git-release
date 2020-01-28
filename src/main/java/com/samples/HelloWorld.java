@@ -1,8 +1,10 @@
 package com.samples;
 
-public class HelloWorld {
+import lombok.extern.flogger.Flogger;
 
+@Flogger
+public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        log.atInfo().log("Hello world");
     }
 }
