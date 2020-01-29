@@ -14,6 +14,6 @@ public class HelloWorld {
     }
 
     private static void printHelloIndia() {
-        log.atInfo().log("Hello India India");
+        log.atInfo().log("Hello India");
     }
 }
